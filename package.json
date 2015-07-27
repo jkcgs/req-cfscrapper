@@ -1,0 +1,28 @@
+{
+  "name": "req-cfscrapper",
+  "version": "0.1.0",
+  "description": "Allows to get content from sites with CFIUAM mode, if it's an auto-redirect page",
+  "author": {
+    "name": "Jonathan Gutiérrez",
+    "email": "me@makzk.com",
+    "url": "makzk.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "htmlparser",
+    "scraper",
+    "parser",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/makzk/req-cfscrapper.git"
+  },
+  "main": "./cfscrapper.js",
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "dependencies": {
+    "request": "~2.58.0"
+  }
+}
